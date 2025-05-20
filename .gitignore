@@ -1,0 +1,3 @@
+*.fa*.fai
+*.gz.gzi
+slurm-*.out

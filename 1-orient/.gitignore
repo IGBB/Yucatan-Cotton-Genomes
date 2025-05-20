@@ -1,0 +1,9 @@
+0-db.sh
+0-index.sh
+1-align/run.sh
+2-infer-agp/from-paf.sh
+3-genomes/run.sh
+F1.NSF.mmi
+3-curate-agp/run.sh
+4-genomes/run.sh
+dotplots/plot.sh
