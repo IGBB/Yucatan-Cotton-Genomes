@@ -1,0 +1,30 @@
+#+title: Readme
+
+
+* /G. longicalyx/ reference
+https://www.cottongen.org/cottongen_downloads/Gossypium_longicalyx/F1_NSF/assembly/longicalyx.fasta.gz
+
+* New Genomes
+#+begin_src tmux :w atlas :exports both
+
+for f in Chorlitos Consorcio Preseco Pretropical; do
+    md5sum $f/$f.4.genome.fasta
+done
+
+#+end_src
+
+| name        | orig name                  | Uncompressed MD5                 |
+|-------------+----------------------------+----------------------------------|
+| Chorlitos   | Chorlitos.4.genome.fasta   | e0981b7b7dbbac29087439f1f92bd989 |
+| Consorcio   | Consorcio.4.genome.fasta   | 54b4f0d513a28b5814796202c23427a5 |
+| Preseco     | Preseco.4.genome.fasta     | eb3a29ba9eb57d5121e66853a3f5f6fa |
+| Pretropical | Pretropical.4.genome.fasta | 6610e362d3c778ad5e18c13ec359798d |
+
+
+* viridiplantae orhtodb
+Get Viridiplantae orthodb fasta
+#+begin_src tmux :session cotton-pangenome:atlas
+URL=https://bioinf.uni-greifswald.de/bioinf/partitioned_odb11
+wget -O $DIR/Viridiplantae.fa.gz \
+       $URL/Viridiplantae.fa.gz
+#+end_src

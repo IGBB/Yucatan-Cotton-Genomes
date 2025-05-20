@@ -1,0 +1,16 @@
+#+title: Readme
+
+
+Annotated four wild cotton genomes
+
+*** [[./0-ref/readme.org][References]]
+
+
+
+*** [[./1-orient/readme.org][Orient and Rename]]
+Using [[https://jcottonres.biomedcentral.com/articles/10.1186/s42397-018-0002-1][Wang, Wendel, and Hua 2018]] as refrence for names; specifically [[https://jcottonres.biomedcentral.com/articles/10.1186/s42397-018-0002-1/tables/2][table 2]].
+
+Using /Gossypium longicalyx/ from [[https://academic.oup.com/g3journal/article/10/5/1457/6026205][Grover et al. 2020]] (F1.NSF) as the orientation reference.
+
+***  [[./2-first-pass/readme.org][First Pass Annotation]]
+Dropped AD2.H7124.ZJU since no SINE elements were found
