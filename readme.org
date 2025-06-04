@@ -5,6 +5,24 @@ Annotated four wild cotton genomes
 
 *** [[./0-ref/readme.org][References]]
 
+#+header: :dir (symbol-value 'ssh-deploy-root-remote)
+#+header: :var ROOT=(file-local-name ssh-deploy-root-remote)
+#+header: :var genomes=./0-ref/readme.org:genomes[,0]
+#+begin_src shell :colnames '("Genome" "Seqs" "Size")
+for name in "${genomes[@]}"; do
+    awk '{sum += $2 } END {print name, NR, sum}' \
+        name=$name OFS="\t" \
+        $ROOT/0-ref/$name.fa.gz.fai
+done
+#+end_src
+
+#+RESULTS:
+| Genome      | Seqs |       Size |
+|-------------+------+------------|
+| Chorlitos   |  583 | 2334483729 |
+| Consorcio   |  375 | 2323173487 |
+| Preseco     |  640 | 2336152694 |
+| Pretropical |  622 | 2331970266 |
 
 
 *** [[./1-orient/readme.org][Orient and Rename]]
@@ -12,5 +30,23 @@ Using [[https://jcottonres.biomedcentral.com/articles/10.1186/s42397-018-0002-1]
 
 Using /Gossypium longicalyx/ from [[https://academic.oup.com/g3journal/article/10/5/1457/6026205][Grover et al. 2020]] (F1.NSF) as the orientation reference.
 
+#+header: :dir (symbol-value 'ssh-deploy-root-remote)
+#+header: :var ROOT=(file-local-name ssh-deploy-root-remote)
+#+header: :var genomes=./0-ref/readme.org:genomes[,0]
+#+begin_src shell :colnames '("Genome" "Seqs" "Size")
+for name in "${genomes[@]}"; do
+    awk '{sum += $3 } END {print name, NR, sum}' \
+    name=$name OFS="\t" \
+    $ROOT/1-orient/3-curate-agp/$name.agp
+done
+#+end_src
+
+#+RESULTS:
+| Genome    | Seqs |       Size |
+|-----------+------+------------|
+| Chorlitos |   26 | 2300094691 |
+| Consorcio |   26 | 2295940408 |
+
+
+
 ***  [[./2-first-pass/readme.org][First Pass Annotation]]
-Dropped AD2.H7124.ZJU since no SINE elements were found

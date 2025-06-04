@@ -1,0 +1,99 @@
+#+title: Readme
+
+
+* agp-from-paf
+:PROPERTIES:
+:CREATED:  [2025-05-20 Tue 11:32]
+:END:
+https://github.com/IGBB/Cotton-Gnomes/blob/master/apps/agp-from-paf.pl
+* EDTA
+:PROPERTIES:
+:CREATED:  [2025-05-20 Tue 11:32]
+:END:
+
+#+begin_src tmux :w atlas :exports both
+ml apptainer
+singularity pull EDTA-2.2.2.sif \
+    docker://quay.io/biocontainers/edta:2.2.2--hdfd78af_1
+#+end_src
+* paf doplotly
+:PROPERTIES:
+:CREATED:  [2025-05-20 Tue 12:09]
+:END:
+
+#+begin_src tmux :w atlas :exports both
+wget https://raw.githubusercontent.com/tpoorten/dotPlotly/refs/heads/master/pafCoordsDotPlotly.R
+#+end_src
+* braker3
+:PROPERTIES:
+:CREATED:  [2025-05-20 Tue 12:10]
+:END:
+
+
+#+begin_src tmux :w atlas :exports both
+ml apptainer
+singularity pull braker3-v3.0.7.6.sif \
+    docker://teambraker/braker3:v3.0.7.6
+#+end_src
+* FCS
+:PROPERTIES:
+:CREATED:  [2025-05-27 Tue 09:11]
+:END:
+** gx
+
+:PROPERTIES:
+:CREATED:  [2025-05-27 Tue 09:06]
+:END:
+- Get script
+  #+begin_src tmux :w atlas
+curl -LO https://github.com/ncbi/fcs/raw/main/dist/fcs.py
+  #+end_src
+- Get container
+  #+begin_src tmux :w atlas
+curl https://ftp.ncbi.nlm.nih.gov/genomes/TOOLS/FCS/releases/latest/fcs-gx.sif -Lo fcs-gx.sif
+export FCS_DEFAULT_IMAGE=fcs-gx.sif
+  #+end_src
+- Get DB (using reference)
+  #+begin_src tmux :w atlas
+ml apptainer
+export NCBI_FCS_REPORT_ANALYTICS=0
+SOURCE_DB_MANIFEST="https://ncbi-fcs-gx.s3.amazonaws.com/gxdb/latest/all.manifest"
+export FCS_DEFAULT_IMAGE=fcs-gx.sif
+LOCAL_DB=`pwd`
+python3 fcs.py db get --mft "$SOURCE_DB_MANIFEST" \
+    --dir "$LOCAL_DB/gxdb"
+  #+end_src
+** adaptor
+:PROPERTIES:
+:CREATED:  [2025-05-27 Tue 09:37]
+:END:
+- Retrieve the run_fcsadaptor.sh runner script:
+  #+begin_src tmux :w atlas :exports both
+curl -LO https://github.com/ncbi/fcs/raw/main/dist/run_fcsadaptor.sh
+chmod 755 run_fcsadaptor.sh
+  #+end_src
+
+- If using Singularity, retrieve the FCS-adaptor .sif:
+  #+begin_src tmux :w atlas :exports both
+curl https://ftp.ncbi.nlm.nih.gov/genomes/TOOLS/FCS/releases/latest/fcs-adaptor.sif -Lo fcs-adaptor.sif
+  #+end_src
+* busco
+:PROPERTIES:
+:CREATED:  [2025-05-27 Tue 10:37]
+:END:
+
+#+begin_src tmux :w atlas :exports both
+ml apptainer
+singularity pull docker://ezlabgva/busco:v5.8.2_cv1
+
+singularity exec busco_v5.8.2_cv1.sif busco --download eukaryota \
+    --download_path buscoDB
+
+#+end_src
+* gffread
+:PROPERTIES:
+:CREATED:  [2025-05-27 Tue 14:16]
+:END:
+#+begin_src tmux :w atlas :exports both
+wget https://github.com/gpertea/gffread/releases/download/v0.12.7/gffread-0.12.7.Linux_x86_64.tar.gz
+#+end_src

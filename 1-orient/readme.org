@@ -1,0 +1,121 @@
+#+title: Readme
+#+PROPERTY:  header-args :var DIR=(file-name-directory buffer-file-name)
+
+
+** Code
+*** Create database
+  #+begin_src sh :tangle 0-db.sh
+ROOT=$(git rev-parse --show-toplevel)
+ml minimap2/2.29
+
+minimap2 -x asm20 -d $DIR/F1.NSF.mmi \
+    $ROOT/0-ref/longicalyx.fasta.gz
+  #+end_src
+*** Index genomes
+#+header: :var genomes=../0-ref/readme.org:genomes[,0]
+#+begin_src sh :tangle 0-index.sh
+ROOT=$(git rev-parse --show-toplevel)
+
+ml parallel samtools/1.19.2
+export ROOT
+
+parallel -j $SLURM_CPUS_PER_TASK --eta \
+    samtools faidx $ROOT/0-ref/{}.fa.gz \
+    ::: "${genomes[@]}"
+#+end_src
+
+
+*** Align genomes
+#+header: :var genomes=../0-ref/readme.org:genomes[,0]
+#+begin_src sh :tangle 1-align/run.sh
+ROOT=$(git rev-parse --show-toplevel)
+ml minimap2/2.29
+
+name=${genomes[$SLURM_ARRAY_TASK_ID]}
+
+minimap2 -t $SLURM_CPUS_PER_TASK -x asm20 -I 150G \
+     $DIR/F1.NSF.mmi \
+     $ROOT/0-ref/$name.fa.gz \
+     > $DIR/1-align/$name.paf
+
+#+end_src
+
+#+header: :var genomes=../0-ref/readme.org:genomes[,0]
+#+begin_src sh :tangle dotplots/plot.sh
+ROOT=$(git rev-parse --show-toplevel)
+
+cd $DIR/dotplots
+
+for name in ${genomes[@]}; do
+    num=26
+
+    sort -k2,2nr $ROOT/0-ref/$name.fa.gz.fai |
+        cut -f 1 |
+        head -n $num |
+        fgrep -w -f - $DIR/1-align/$name.paf |
+        Rscript $ROOT/apps/pafCoordsDotPlotly.R \
+            -i /dev/stdin \
+            -o $name \
+            -m 50000 \
+            -p 8 \
+            -r $(echo F{01..13} | tr ' ' ',') \
+            -x -s -l -t
+done
+
+#+end_src
+#+end_src
+
+*** Create AGP files from paf
+[[https://jcottonres.biomedcentral.com/articles/10.1186/s42397-018-0002-1][Wang, Wendel, and Hua 2018]] prefix
+
+#+header: :var genomes=../0-ref/readme.org:genomes[,0]
+#+begin_src sh :tangle 2-infer-agp/from-paf.sh
+ROOT=$(git rev-parse --show-toplevel)
+
+for name in ${genomes[@]}; do
+    perl $ROOT/apps/agp-from-paf.pl $DIR/1-align/$name.paf |
+        awk '$6 ~ /^[AD][01][0-9]/ {
+            $1=gensub("([AD])([01][0-9]).*", "\\1h_\\2", "g", $6)
+            print; }' OFS="\t" |
+        sort -k1,1 > $DIR/2-infer-agp/$name.inferred.agp
+done
+#+end_src
+*** Verify Inferred AGP files
+
+Keeping the longest 26 (number of chrs) fixes the agp files
+#+header: :var genomes=../0-ref/readme.org:genomes[,0]
+#+begin_src shell :tangle 3-curate-agp/run.sh :exports both
+for name in ${genomes[@]}; do
+    sort -k3,3nr $DIR/2-infer-agp/$name.inferred.agp |
+        head -n26 |
+        sort -k1,1 > $DIR/3-curate-agp/$name.agp
+done
+#+end_src
+
+
+*** Create fasta files
+#+header: :var genomes=../0-ref/readme.org:genomes[,0]
+#+begin_src shell :tangle 4-genomes/run.sh
+ROOT=$(git rev-parse --show-toplevel)
+module load samtools/1.19.2
+
+PATH=$HOME/.local/bin:$PATH
+PYTHONPATH=$HOME/.local/lib/python3.9/site-packages/
+
+name=${genomes[$SLURM_ARRAY_TASK_ID]}
+
+AGP_FILE=$DIR/3-curate-agp/$name.agp
+if [[ ! -f $AGP_FILE ]] ; then
+    echo "Can't find $name agp file";
+    exit
+fi
+
+cut -f 6 $AGP_FILE |
+    samtools faidx -r - $ROOT/0-ref/$name.fa.gz \
+        > $TMPDIR/$name.fa
+
+python3 $HOME/.local/bin/agptools assemble \
+    $TMPDIR/$name.fa $AGP_FILE |
+    bgzip > $DIR/4-genomes/$name.fa.gz
+
+#+end_src

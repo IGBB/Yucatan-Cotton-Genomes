@@ -1,0 +1,256 @@
+#+title: Readme
+#+PROPERTY:  header-args :var DIR=(file-name-directory buffer-file-name)
+
+
+** CODE
+*** FSC-GX
+:PROPERTIES:
+:CREATED:  [2025-05-27 Tue 09:05]
+:END:
+
+#+header: :var genomes=../0-ref/readme.org:genomes[,0]
+#+begin_src shell :tangle 1-fcs-gx/run.sh
+ROOT=$(git rev-parse --show-toplevel)
+ml apptainer
+
+#FCS runs way faster with in-mem database (3 min vs 1 hr ); however, it requires a bigmem node to run that way. If the bigmem nodes are full and not worth the wait, copy db to TMPDIR.
+#DB=$TMPDIR/fcsdb/
+#DB=/dev/shm/fcsdb
+#rsync -Prv $ROOT/apps/gxdb/ $DB
+DB=$ROOT/apps/gxdb
+
+export FCS_DEFAULT_IMAGE=$ROOT/apps/fcs-gx.sif
+export NCBI_FCS_REPORT_ANALYTICS=0
+
+for name in "${genomes[@]}"; do
+    zcat $ROOT/1-orient/4-genomes/$name.fa.gz > $TMPDIR/$name.fa
+
+    python3 $ROOT/apps/fcs.py screen genome \
+        --fasta $TMPDIR/$name.fa  \
+        --out-dir $TMPDIR/$name/ \
+        --gx-db "$DB" \
+        --tax-id 3635 # G. hirsutum
+
+    tar -cf $DIR/1-fcs-gx/$name.tar -C $TMPDIR/$name/ \
+        --transform="s#$name.3635.##" \
+        $name.3635.{fcs_gx_report.txt,taxonomy.rpt}
+done
+#+end_src
+
+#+begin_src tmux :w atlas :exports both
+for name in Chorlitos Consorcio Preseco Pretropical; do
+    tar -Oxf 1-fcs-gx/$name.tar fcs_gx_report.txt
+done
+#+end_src
+: NO ACTIONS
+
+*** FSC-adaptor
+:PROPERTIES:
+:CREATED:  [2025-05-27 Tue 09:40]
+:END:
+
+#+header: :var genomes=../0-ref/readme.org:genomes[,0]
+#+begin_src shell :tangle 2-fcs-adaptor/run.sh
+ROOT=$(git rev-parse --show-toplevel)
+ml apptainer
+
+export NCBI_FCS_REPORT_ANALYTICS=0
+
+for name in "${genomes[@]}"; do
+    zcat $ROOT/1-orient/4-genomes/$name.fa.gz > $TMPDIR/$name.fa
+
+    mkdir $TMPDIR/${name}.adapt
+
+    $ROOT/apps/run_fcsadaptor.sh \
+        --fasta-input $TMPDIR/$name.fa \
+        --output-dir $TMPDIR/${name}.adapt \
+        --euk \
+        --container-engine singularity \
+        --image $ROOT/apps/fcs-adaptor.sif
+
+    tar -cf $DIR/2-fcs-adaptor/$name.tar -C $TMPDIR/$name.adapt \
+        --exclude='cleaned_sequences/*' --transform='s#^[.]/##' .
+done
+#+end_src
+
+#+begin_src tmux :w atlas :exports both
+for name in Chorlitos Consorcio Preseco Pretropical; do
+    tar -Oxf 2-fcs-adaptor/$name.tar fcs_adaptor_report.txt
+done
+#+end_src
+: NO ACTIONS
+*** Scan for mito
+:PROPERTIES:
+:CREATED:  [2025-05-27 Tue 10:56]
+:END:
+
+*** BUSCO
+:PROPERTIES:
+:CREATED:  [2025-05-27 Tue 10:36]
+:END:
+
+**** Genome
+#+header: :var genomes=../0-ref/readme.org:genomes[,0]
+#+begin_src shell :tangle 4-busco/run.sh
+ROOT=$(git rev-parse --show-toplevel)
+
+ml apptainer
+busco () {
+    singularity exec -B $ROOT $ROOT/apps/busco_v5.8.2_cv1.sif \
+        busco "$@"
+}
+name=${genomes[$SLURM_ARRAY_TASK_ID]}
+
+zcat $ROOT/1-orient/4-genomes/$name.fa.gz > $TMPDIR/$name.fa
+
+cd $TMPDIR
+busco -i $TMPDIR/$name.fa \
+    -l $ROOT/apps/busco_downloads/lineages/eudicotyledons_odb12 \
+    -o $name/ \
+    -m genome \
+    -c $SLURM_CPUS_PER_TASK \
+    --tar \
+    --offline
+
+tar -cf $DIR/4-busco/$name.tar \
+    -C $TMPDIR/$name/run_eudicotyledons_odb12 \
+    --exclude "miniprot_output/ref.mpi" \
+    --transform "s#^[.]/##" .
+#+end_src
+
+#+header: :dir (symbol-value 'ssh-deploy-root-remote)
+#+header: :var ROOT=(file-local-name ssh-deploy-root-remote)
+#+begin_src shell :exports both :results output verbatim
+for name in Chorlitos Consorcio Preseco Pretropical; do
+    echo $name
+    tar -Oxf $ROOT/3-downstream/4-busco/$name.tar \
+        short_summary.txt |
+        sed -n 9,15p
+done
+#+end_src
+
+#+RESULTS:
+#+begin_example
+Chorlitos
+	C:99.3%[S:1.7%,D:97.6%],F:0.4%,M:0.3%,n:2805,E:0.7%
+	2784	Complete BUSCOs (C)	(of which 19 contain internal stop codons)
+	47	Complete and single-copy BUSCOs (S)
+	2737	Complete and duplicated BUSCOs (D)
+	12	Fragmented BUSCOs (F)
+	9	Missing BUSCOs (M)
+	2805	Total BUSCO groups searched
+Consorcio
+	C:99.3%[S:2.2%,D:97.1%],F:0.4%,M:0.4%,n:2805,E:0.7%
+	2785	Complete BUSCOs (C)	(of which 20 contain internal stop codons)
+	61	Complete and single-copy BUSCOs (S)
+	2724	Complete and duplicated BUSCOs (D)
+	10	Fragmented BUSCOs (F)
+	10	Missing BUSCOs (M)
+	2805	Total BUSCO groups searched
+Preseco
+	C:99.3%[S:1.7%,D:97.6%],F:0.4%,M:0.4%,n:2805,E:0.8%
+	2785	Complete BUSCOs (C)	(of which 22 contain internal stop codons)
+	48	Complete and single-copy BUSCOs (S)
+	2737	Complete and duplicated BUSCOs (D)
+	10	Fragmented BUSCOs (F)
+	10	Missing BUSCOs (M)
+	2805	Total BUSCO groups searched
+Pretropical
+	C:99.3%[S:1.7%,D:97.6%],F:0.4%,M:0.4%,n:2805,E:0.7%
+	2784	Complete BUSCOs (C)	(of which 19 contain internal stop codons)
+	47	Complete and single-copy BUSCOs (S)
+	2737	Complete and duplicated BUSCOs (D)
+	10	Fragmented BUSCOs (F)
+	11	Missing BUSCOs (M)
+	2805	Total BUSCO groups searched
+#+end_example
+
+
+
+**** Protein
+:PROPERTIES:
+:CREATED:  [2025-05-27 Tue 14:04]
+:END:
+#+header: :var genomes=../0-ref/readme.org:genomes[,0]
+#+begin_src shell :tangle 4-busco/prot.sh
+ROOT=$(git rev-parse --show-toplevel)
+
+ml apptainer
+busco () {
+    singularity exec -B $ROOT $ROOT/apps/busco_v5.8.2_cv1.sif \
+        busco "$@"
+}
+PATH=$ROOT/apps/gffread-0.12.7.Linux_x86_64/:$PATH
+
+name=${genomes[$SLURM_ARRAY_TASK_ID]}
+
+zcat $ROOT/1-orient/4-genomes/$name.fa.gz > $TMPDIR/$name.fa
+zcat $ROOT/2-first-pass/7-rename/$name.gtf.gz |
+    awk '$3 == "transcript" {
+        $9 = sprintf("transcript_id \"%s\"", $9)} 1' \
+            FS="\t" OFS="\t" > $TMPDIR/$name.gtf
+
+gffread -J -y $TMPDIR/$name.aa.fa \
+    -g $TMPDIR/$name.fa $TMPDIR/$name.gtf
+
+cd $TMPDIR
+busco -i $TMPDIR/$name.aa.fa \
+    -l $ROOT/apps/busco_downloads/lineages/eudicotyledons_odb12 \
+    -o $name/ \
+    -m protein \
+    -c $SLURM_CPUS_PER_TASK \
+    --tar \
+    --offline
+
+tar -cf $DIR/4-busco/$name.prot.tar \
+     -C $TMPDIR/$name/run_eudicotyledons_odb12 \
+     --transform "s#^[.]/##" .
+
+#+end_src
+
+#+header: :dir (symbol-value 'ssh-deploy-root-remote)
+#+header: :var ROOT=(file-local-name ssh-deploy-root-remote)
+#+begin_src shell :exports both :results output verbatim
+for name in Chorlitos Consorcio Preseco Pretropical; do
+    echo $name
+    tar -Oxf $ROOT/3-downstream/4-busco/$name.prot.tar \
+        short_summary.txt |
+        sed -n 8,14p
+done
+#+end_src
+
+#+RESULTS:
+#+begin_example
+Chorlitos
+	C:97.5%[S:7.6%,D:89.9%],F:0.6%,M:1.9%,n:2805
+	2734	Complete BUSCOs (C)
+	213	Complete and single-copy BUSCOs (S)
+	2521	Complete and duplicated BUSCOs (D)
+	18	Fragmented BUSCOs (F)
+	53	Missing BUSCOs (M)
+	2805	Total BUSCO groups searched
+Consorcio
+	C:98.1%[S:8.0%,D:90.1%],F:0.4%,M:1.5%,n:2805
+	2751	Complete BUSCOs (C)
+	224	Complete and single-copy BUSCOs (S)
+	2527	Complete and duplicated BUSCOs (D)
+	11	Fragmented BUSCOs (F)
+	43	Missing BUSCOs (M)
+	2805	Total BUSCO groups searched
+Preseco
+	C:97.1%[S:7.3%,D:89.8%],F:0.7%,M:2.1%,n:2805
+	2725	Complete BUSCOs (C)
+	205	Complete and single-copy BUSCOs (S)
+	2520	Complete and duplicated BUSCOs (D)
+	21	Fragmented BUSCOs (F)
+	59	Missing BUSCOs (M)
+	2805	Total BUSCO groups searched
+Pretropical
+	C:97.7%[S:7.2%,D:90.6%],F:0.5%,M:1.7%,n:2805
+	2741	Complete BUSCOs (C)
+	201	Complete and single-copy BUSCOs (S)
+	2540	Complete and duplicated BUSCOs (D)
+	15	Fragmented BUSCOs (F)
+	49	Missing BUSCOs (M)
+	2805	Total BUSCO groups searched
+#+end_example
