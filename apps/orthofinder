@@ -1,0 +1,5 @@
+DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+ROOT=$(realpath $DIR/..)
+
+ml apptainer
+singularity exec -B $ROOT -B $TMPDIR $DIR/orthofinder-2.5.5.2.sif orthofinder "$@"
