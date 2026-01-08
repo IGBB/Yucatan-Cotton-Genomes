@@ -653,10 +653,11 @@ filter(data, Score == 0.95) %>%
 
 #+header: :var genomes=../0-ref/readme.org:genomes[,0]
 #+begin_src sh :tangle 7-rename/run.sh
+ROOT=$(git rev-parse --show-toplevel)
+DIR=$ROOT/2-first-pass/
+
 prefix="Gohir"
 for name in ${genomes[@]}; do
-
-    [ -f $DIR/6-braker3-rerun/$name.tar ] || continue
     tar -xf $DIR/6-braker3-rerun/$name.tar \
         -C $TMPDIR/ braker.gtf
 
@@ -687,3 +688,5 @@ for name in ${genomes[@]}; do
     rm $TMPDIR/braker.gtf $TMPDIR/fltr.lst
 done
 #+end_src
+
+#+RESULTS:
