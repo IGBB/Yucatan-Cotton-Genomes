@@ -51,59 +51,29 @@ for name in "${genomes[@]}"; do
     rmdir $tmp
 done
   #+end_src
-- Prepare orthofinder runs
-  #+begin_src sh :tangle 1-whole/orthofinder.sh
-ROOT=$(git rev-parse --show-toplevel)
-DIR=$ROOT/3-genespace/
 
-$ROOT/apps/orthofinder -X -M msa \
-    -f $DIR/1-whole/peptide \
-    -t $SLURM_CPUS_PER_TASK \
-    -a 16 \
-    -o $DIR/1-whole/orthofinder 
-  #+end_src
-- Run Genescape
-  #+begin_src R :tangle 2-whole/genespace.run.R
-library(tidyverse)
+#+begin_src R :tangle 1-whole/run.R
+ROOT <- system("git rev-parse --show-toplevel", intern=T)
+APPS <- file.path(ROOT, "apps")
+DIR  <- file.path(ROOT, "3-genespace", "1-whole")
+
 library(GENESPACE)
 
-
-ROOT <- system("git rev-parse --show-toplevel", intern=T)
-DIR <- file.path(ROOT, "3-genespace", "1-whole")
-APPS <- file.path(ROOT, "apps")
-
-ids <- file.path(DIR, 'bed') %>%
-  list.files(path=., pattern='.bed') %>%
-  sub('.bed', '', .)
+ids <- sub('.bed', '',
+           list.files(path=file.path(DIR, 'bed'),
+                                  pattern='.bed'))
 
 gpar <- init_genespace(
   wd = DIR,
   genomeIDs=ids,
-  ploidy=1,
-  path2mcscanx = file.path(ROOT, "apps", "MCScanX"),
-  path2orthofinder = file.path(ROOT, "apps", "orthofinder"),
-  path2diamond = file.path(ROOT, "apps", "diamond"),
+  path2mcscanx = file.path(APPS, "MCScanX"),
+  path2orthofinder = file.path(APPS, "orthofinder"),
+  path2diamond = file.path(APPS, "diamond"),
   nCores = 80)
 
-gpar$shellCalls$orthofinder <- file.path(APPS, "orthofinder")
-gpar$shellCalls$diamond   <- file.path(APPS, "diamond")
-gpar$shellCalls$mcscanx_h <- file.path(APPS, "MCScanX","MCScanX_h")
-
-gpar$paths$wd               <- file.path(DIR)
-gpar$paths$peptide          <- file.path(DIR, "peptide")
-gpar$paths$bed              <- file.path(DIR, "bed")
-gpar$paths$results          <- file.path(DIR, "results")
-gpar$paths$syntenicHits     <- file.path(DIR, "syntenicHits")
-gpar$paths$orthofinder      <- file.path(DIR, "orthofinder")
-gpar$paths$dotplots         <- file.path(DIR, "dotplots")
-gpar$paths$riparian         <- file.path(DIR, "riparian")
-gpar$paths$pangenes         <- file.path(DIR, "pangenes")
-gpar$paths$tmp              <- file.path(DIR, "tmp")
-gpar$paths$rawOrthofinder   <- file.path(DIR, "orthofinder")
-
-copy_of2results(gpar$paths$orthofinder, gpar$paths$results)
-
 out <- run_genespace(gpar)
+
+
 #+end_src
 *** Separate Genomes
 
@@ -184,14 +154,19 @@ gpar <- init_genespace(
 
 out <- run_genespace(gpar)
 
+
+#+end_src
+**** riparian plot 
+#+begin_src R 
+
 plot_riparian(out,
-              refGenome="Chorlitos.Dt",
+              refGenome="TX2094.Dt",
               genomeIDs=grep("Dt", ids, value=T),
               useOrder=F,
               pdfFile="split.Dt.pdf")
 
 plot_riparian(out,
-              refGenome="Chorlitos.At",
+              refGenome="TX2094.At",
               genomeIDs=grep("At", ids, value=T),
               invertTheseChrs=data.frame(genome=c("Chorlitos.At"),
                                    chr=c("Ah_10")),

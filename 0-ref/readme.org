@@ -6,12 +6,13 @@ https://www.cottongen.org/cottongen_downloads/Gossypium_longicalyx/F1_NSF/assemb
 
 * New Genomes
 #+name: genomes
-| name        | orig name                  | Uncompressed MD5                 |
-|-------------+----------------------------+----------------------------------|
-| Chorlitos   | Chorlitos.4.genome.fasta   | e0981b7b7dbbac29087439f1f92bd989 |
-| Consorcio   | Consorcio.4.genome.fasta   | 54b4f0d513a28b5814796202c23427a5 |
-| Preseco     | Preseco.4.genome.fasta     | eb3a29ba9eb57d5121e66853a3f5f6fa |
-| Pretropical | Pretropical.4.genome.fasta | 6610e362d3c778ad5e18c13ec359798d |
+| name        | orig name                    | Uncompressed MD5                 |
+|-------------+------------------------------+----------------------------------|
+| Chorlitos   | Chorlitos.4.genome.fasta     | e0981b7b7dbbac29087439f1f92bd989 |
+| Consorcio   | Consorcio.4.genome.fasta     | 54b4f0d513a28b5814796202c23427a5 |
+| Preseco     | Preseco.4.genome.fasta       | eb3a29ba9eb57d5121e66853a3f5f6fa |
+| Pretropical | Pretropical.4.genome.fasta   | 6610e362d3c778ad5e18c13ec359798d |
+| TX2094      | TX2094.review.2.genome.fasta | 3bbfbab37fd4a1507abddb6185e41418 |
 
 #+begin_src tmux :w atlas :exports both
 ml samtools

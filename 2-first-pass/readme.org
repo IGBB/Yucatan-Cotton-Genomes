@@ -30,6 +30,9 @@ EDTA_raw --genome $TMPDIR/$name.fa \
 
 tar -vcf $DIR/1-edta-raw/$name.$type.tar $name.fa.mod*
 #+end_src
+
+#+RESULTS:
+
 *** Combine EDTA
 #+header: :var genomes=../0-ref/readme.org:genomes[,0]
 #+begin_src shell :tangle 2-edta/run.sh
@@ -658,6 +661,7 @@ DIR=$ROOT/2-first-pass/
 
 prefix="Gohir"
 for name in ${genomes[@]}; do
+    [ -f $DIR/7-rename/$name.gtf.gz ] && continue
     tar -xf $DIR/6-braker3-rerun/$name.tar \
         -C $TMPDIR/ braker.gtf
 
