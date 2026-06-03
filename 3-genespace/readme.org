@@ -173,3 +173,43 @@ plot_riparian(out,
               useOrder=F,
               pdfFile="split.At.pdf")
 #+end_src
+
+
+#+begin_src R
+
+library(tidyverse)
+library(GENESPACE)
+
+load("2-split/results/gsParams.rda")
+abs2rel <- function(x) {sub(".*/3-genespace/","",x)}
+gsParam$paths <-  lapply(gsParam$paths, abs2rel)
+gsParam$synteny$blast$synHits <-
+  abs2rel(gsParam$synteny$blast$synHits)
+
+
+  gsParam$genomeIDs %>%
+  as.data.frame(nm="ID") %>%
+  mutate(genome=sub(".*[.]", "", ID)) %>%
+  arrange(genome, desc(ID)) %>%
+  pull(ID) %>% dput
+
+
+samples <- c("Pretropical",
+             "Preseco",
+             "Consorcio",
+             "Chorlitos",
+             "TX2094")
+IDs <- c(paste0(samples, ".At"),
+         paste0(rev(samples), ".Dt"))
+
+plot_riparian(gsParam,
+              refGenome="TX2094.At",
+              reorderBySynteny = FALSE,
+              genomeIDs=IDs,
+              invertTheseChrs=data.frame(genome=c("Chorlitos.At"),
+                                   chr=c("Ah_10")),
+              useOrder=F,
+              pdfFile="split.all.pdf")
+
+
+#+end_src

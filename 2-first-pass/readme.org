@@ -308,7 +308,7 @@ cowplot::plot_grid(
 :CREATED:  [2025-05-30 Fri 10:06]
 :END:
 
-#+begin_src tmux :w atlas :exports both
+#+begin_src tmux :w hawk :exports both
 for name in Chorlitos Consorcio Preseco Pretropical; do
     echo $name
     tar -Oxf 5-add-cds/$name.tar $name.fa.mod.EDTA.TEanno.sum |
