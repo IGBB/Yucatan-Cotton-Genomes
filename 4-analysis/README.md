@@ -70,20 +70,7 @@ Scripts and selected output files supporting the analysis of four new *Gossypium
 
 ### genespace_riparian/
 
-Riparian plots from GENESPACE showing syntenic block structure for each genome relative to TX2094. One plot per genome × subgenome combination (A subgenome = `.At`; D subgenome = `.Dt`). All plots are at base-pair scale.
-
-| File | Description |
-|------|-------------|
-| `Chorlitos.At_bp.rip.pdf` | Chorlitos — A subgenome |
-| `Chorlitos.Dt_bp.rip.pdf` | Chorlitos — D subgenome |
-| `Consorcio.At_bp.rip.pdf` | Consorcio — A subgenome |
-| `Consorcio.Dt_bp.rip.pdf` | Consorcio — D subgenome |
-| `Preseco.At_bp.rip.pdf` | Preseco — A subgenome |
-| `Preseco.Dt_bp.rip.pdf` | Preseco — D subgenome |
-| `Pretropical.At_bp.rip.pdf` | Pretropical — A subgenome |
-| `Pretropical.Dt_bp.rip.pdf` | Pretropical — D subgenome |
-| `TX2094.At_bp.rip.pdf` | TX2094 — A subgenome |
-| `TX2094.Dt_bp.rip.pdf` | TX2094 — D subgenome |
+Riparian plots from GENESPACE showing syntenic block structure for each genome relative to TX2094. 
 
 ### genespace_pav/
 
