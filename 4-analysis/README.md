@@ -123,3 +123,46 @@ Summary tables and figures from `07b_nlr_annotator_compare.R`.
 | `nlr_chr_locations.jpg` | Dot plot of NLR family positions along all 26 chromosomes, coloured by PAV class |
 | `nlr_tracks_chr11.jpg` | Linear genome track plot for chromosome 11 (A and D), one track per genome, showing NLR positions |
 | `nlr_unannotated.tsv` | NLR-Annotator loci with no overlapping BRAKER3 gene model |
+
+# Software Used
+
+## Sequence alignment & synteny
+| Program | Version | Role | Used in |
+|---|---|---|---|
+| minimap2 | v2.28 | Pairwise whole-genome alignment (`-x asm5`, `-c`) | `02a_synteny_pairwise.slurm` |
+| samtools | v1.23.1 | Indexing / general sequence handling | `02a_synteny_pairwise.slurm` |
+
+## Orthology / pangenes
+| Program | Version | Role | Used in |
+|---|---|---|---|
+| GENESPACE | v1.2.3 | Synteny-anchored orthology and pangene table construction | `05a_genespace.slurm`, `05b_genespace.R` |
+| gffread | v0.12.7 | Protein/CDS extraction | `06a_proteins_from_gff3.slurm` |
+
+## K-mer similarity
+| Program | Version | Role | Used in |
+|---|---|---|---|
+| PanKmer | v0.20.4 | k-mer index, adjacency matrix, heatmap | `03_pankmer_cds.slurm`, `04a_pankmer_atlas.slurm` |
+
+## NLR / immune receptor annotation
+| Program | Version | Role | Used in |
+|---|---|---|---|
+| Resistify | v2.1.0  | Protein-based NLR classification | `06b_resistify.slurm`, `06c_resistify_pav.R` |
+| NLR-Annotator | v2.1b | Motif-based NLR locus detection | `07a_nlr_annotator.slurm` |
+| OpenJDK | 21.0.3_9-vngib7s | Java runtime for NLR-Annotator | `07a_nlr_annotator.slurm` |
+
+## R environment
+| Program | Version |
+|---|---|
+| R | 4.5.1  |
+| R | 4.4.3  |
+
+### R packages (local R 4.4.3)
+| Package | Version |
+|---|---|
+| data.table | 1.17.0 |
+| ggplot2 | 4.0.3 |
+| patchwork | 1.3.0 |
+| pheatmap | 1.0.12 |
+| RColorBrewer | 1.1.3 |
+
+
