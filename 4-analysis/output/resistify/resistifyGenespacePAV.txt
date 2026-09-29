@@ -1,0 +1,57 @@
+=== Total unique NLR genes per genome (all, regardless of pangene matrix) ===
+genome	N
+Chorlitos	587
+Consorcio	639
+Preseco	608
+Pretropical	574
+TX2094	652
+
+=== NLR classification per genome (all) ===
+genome	CN	CNL	N	NL	RNL	TN	TNL
+Chorlitos	91	266	76	82	6	14	52
+Consorcio	115	259	89	84	5	22	65
+Preseco	101	272	96	83	6	15	35
+Pretropical	97	224	86	85	6	19	57
+TX2094	103	257	95	96	6	29	66
+
+=== Pangene matrix coverage ===
+Matched to pangene matrix: 2440 
+Unplaced (not in matrix): 663 
+
+NLR Classification x PAV class
+Classification	core	variable	private
+CN	199	161	44
+CNL	637	264	56
+N	200	152	37
+NL	205	128	30
+RNL	25	4	0
+TN	30	37	11
+TNL	130	76	14
+
+Per-genome NLR counts by PAV class
+genome	core	variable	private
+Chorlitos	281	147	24
+Consorcio	279	184	19
+Preseco	276	175	14
+Pretropical	282	160	18
+TX2094	308	156	117
+
+Subgenome x PAV class
+subgenome	core	variable	private
+A	667	410	97
+D	759	412	95
+
+=== Family-level NLR PAV (one count per pangene row) ===
+Total NLR pangene families: 1231 
+row_pav	N
+core	588
+variable	451
+private	192
+
+Family-level NLR counts per genome
+genome	core	variable	private
+Chorlitos	588	219	24
+Consorcio	588	266	19
+Preseco	588	254	14
+Pretropical	588	255	18
+TX2094	588	361	117

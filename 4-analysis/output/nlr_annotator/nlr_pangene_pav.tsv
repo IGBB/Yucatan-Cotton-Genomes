@@ -1,0 +1,1178 @@
+pg_row	interpChr	n_genomes_pav	n_genomes_both	n_genomes_nlr_annotator	n_genomes_resistify_only	n_genomes_any_nlr	Chorlitos	Consorcio	Preseco	Pretropical	TX2094	pav_class
+230	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+231	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+232	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+235	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+236	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+238	Ah_01	5	5	5	0	5	NLR	NLR	NLR	NLR	NLR	core
+239	Ah_01	1	1	1	0	1					NLR	private
+240	Ah_01	5	5	5	0	5	NLR	NLR	NLR	NLR	NLR	core
+245	Ah_01	2	2	2	0	2	NLR		NLR			variable_2
+246	Ah_01	2	1	1	0	1			NLR		present	variable_2
+247	Ah_01	5	4	5	0	5	NLR	NLR	NLR	NLR	NLR	core
+248	Ah_01	3	1	3	0	3		NLR		NLR	NLR	variable_3
+249	Ah_01	1	1	1	0	1					NLR	private
+250	Ah_01	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+252	Ah_01	2	1	1	0	1	NLR				present	variable_2
+256	Ah_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+259	Ah_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+260	Ah_01	1	1	1	0	1	NLR					private
+261	Ah_01	1	1	1	0	1					NLR	private
+262	Ah_01	4	2	2	0	2		NLR	present	present	NLR	near_core
+264	Ah_01	1	1	1	0	1	NLR					private
+265	Ah_01	5	1	2	0	2	present	NLR	present	present	NLR	core
+267	Ah_01	4	4	4	0	4	NLR	NLR	NLR		NLR	near_core
+269	Ah_01	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+270	Ah_01	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+533	Ah_01	4	1	1	0	1		present	present	present	NLR	near_core
+536	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+548	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+559	Ah_01	1	1	1	0	1					NLR	private
+564	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+567	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+568	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+569	Ah_01	3	1	1	0	1			present	present	NLR	variable_3
+586	Ah_01	4	1	1	0	1	present		present	present	NLR	near_core
+588	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+597	Ah_01	4	1	1	0	1	present	present	present		NLR	near_core
+601	Ah_01	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+613	Ah_01	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+620	Ah_01	2	1	1	0	1				NLR	present	variable_2
+621	Ah_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+623	Ah_01	2	1	1	0	1	NLR			present		variable_2
+624	Ah_01	2	1	1	0	1				NLR	present	variable_2
+644	Ah_01	2	1	1	0	1				NLR	present	variable_2
+658	Ah_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+836	Ah_01	2	1	1	0	1		present			NLR	variable_2
+839	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+841	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+842	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+872	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+875	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+881	Ah_01	1	1	1	0	1					NLR	private
+933	Ah_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+934	Ah_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+938	Ah_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+970	Ah_01	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+974	Ah_01	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+980	Ah_01	4	1	1	0	1	present		present	present	NLR	near_core
+992	Ah_01	5	1	1	0	1	present	present	present	present	NLR	core
+1088	Ah_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+1099	Ah_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+4806	Ah_02	5	1	1	0	1	present	present	present	present	NLR	core
+4809	Ah_02	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+5517	Ah_02	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+5533	Ah_02	3	3	3	0	3		NLR	NLR	NLR		variable_3
+8017	Ah_02	1	1	1	0	1					NLR	private
+8019	Ah_02	5	1	1	0	1	present	present	present	present	NLR	core
+8052	Ah_02	5	1	1	0	1	present	present	present	present	NLR	core
+8053	Ah_02	5	1	1	0	1	present	present	present	present	NLR	core
+8471	Ah_02	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+8503	Ah_02	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+8516	Ah_02	1	1	1	0	1	NLR					private
+8517	Ah_02	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+8519	Ah_02	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+8864	Ah_03	1	1	1	0	1					NLR	private
+8865	Ah_03	5	1	1	0	1	present	present	present	present	NLR	core
+8867	Ah_03	1	1	1	0	1					NLR	private
+8871	Ah_03	4	1	1	0	1	present	present		present	NLR	near_core
+8885	Ah_03	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+8886	Ah_03	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+8896	Ah_03	3	2	2	0	2	NLR	NLR			present	variable_3
+8922	Ah_03	1	1	1	0	1					NLR	private
+8923	Ah_03	3	1	1	0	1	present			present	NLR	variable_3
+8924	Ah_03	2	1	1	0	1				present	NLR	variable_2
+8932	Ah_03	1	1	1	0	1					NLR	private
+8949	Ah_03	5	1	1	0	1	present	present	present	present	NLR	core
+8957	Ah_03	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+8958	Ah_03	1	1	1	0	1		NLR				private
+8960	Ah_03	3	2	2	0	2	NLR		NLR		present	variable_3
+8970	Ah_03	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+8987	Ah_03	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+8991	Ah_03	5	1	4	0	4	NLR	NLR	NLR	NLR	present	core
+9134	Ah_03	5	1	1	0	1	present	present	present	present	NLR	core
+9188	Ah_03	2	1	1	0	1	NLR				present	variable_2
+10874	Ah_03	4	1	1	0	1		present	present	present	NLR	near_core
+11347	Ah_03	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+11500	Ah_03	5	1	1	0	1	present	present	present	present	NLR	core
+12110	Ah_03	3	1	2	0	2		NLR	NLR		present	variable_3
+13192	Ah_04	5	1	1	0	1	present	present	present	present	NLR	core
+13193	Ah_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+13309	Ah_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+13356	Ah_04	5	1	1	0	1	present	present	present	present	NLR	core
+13361	Ah_04	5	1	1	0	1	present	present	present	present	NLR	core
+13365	Ah_04	5	1	1	0	1	present	present	present	present	NLR	core
+13369	Ah_04	4	3	3	0	3	NLR		NLR	NLR	present	near_core
+13375	Ah_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+13379	Ah_04	2	1	1	0	1				present	NLR	variable_2
+13393	Ah_04	5	1	4	0	4	NLR	NLR	NLR	NLR	present	core
+13395	Ah_04	1	1	1	0	1	NLR					private
+13405	Ah_04	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+13408	Ah_04	5	1	1	0	1	present	present	present	present	NLR	core
+13410	Ah_04	4	1	1	0	1	present		present	present	NLR	near_core
+13411	Ah_04	2	2	2	0	2	NLR	NLR				variable_2
+13412	Ah_04	5	1	1	0	1	present	present	present	present	NLR	core
+13426	Ah_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+13430	Ah_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+13433	Ah_04	4	1	4	0	4	NLR	NLR		NLR	NLR	near_core
+13435	Ah_04	2	1	2	0	2		NLR			NLR	variable_2
+13455	Ah_04	2	2	2	0	2		NLR		NLR		variable_2
+13462	Ah_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+13463	Ah_04	1	1	1	0	1				NLR		private
+13494	Ah_04	5	1	1	0	1	present	present	present	present	NLR	core
+13496	Ah_04	5	1	1	0	1	present	present	present	present	NLR	core
+13497	Ah_04	1	1	1	0	1				NLR		private
+13514	Ah_04	4	1	1	0	1	present	present	present		NLR	near_core
+13516	Ah_04	3	2	2	0	2		NLR		NLR	present	variable_3
+13534	Ah_04	1	1	1	0	1		NLR				private
+13537	Ah_04	4	2	2	0	2	present		NLR	NLR	present	near_core
+13540	Ah_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+13550	Ah_04	3	2	2	0	2	NLR	NLR			present	variable_3
+13560	Ah_04	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+13694	Ah_04	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+13711	Ah_04	2	1	1	0	1	present				NLR	variable_2
+13716	Ah_04	5	1	1	0	1	present	present	present	present	NLR	core
+13747	Ah_04	5	1	1	0	1	present	present	present	present	NLR	core
+13748	Ah_04	3	1	1	0	1	present			present	NLR	variable_3
+13760	Ah_04	4	1	1	0	1	present	present		present	NLR	near_core
+13765	Ah_04	3	1	1	0	1			present	present	NLR	variable_3
+13768	Ah_04	1	1	1	0	1					NLR	private
+13769	Ah_04	1	1	1	0	1					NLR	private
+13772	Ah_04	1	1	1	0	1					NLR	private
+13774	Ah_04	5	1	1	0	1	present	present	present	present	NLR	core
+13775	Ah_04	1	1	1	0	1					NLR	private
+13782	Ah_04	5	1	1	0	1	present	present	present	present	NLR	core
+13786	Ah_04	4	1	1	0	1		present	present	present	NLR	near_core
+13791	Ah_04	3	1	3	0	3			NLR	NLR	NLR	variable_3
+13792	Ah_04	4	3	4	0	4		NLR	NLR	NLR	NLR	near_core
+13795	Ah_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+13805	Ah_04	3	3	3	0	3	NLR	NLR		NLR		variable_3
+13821	Ah_04	1	1	1	0	1		NLR				private
+13827	Ah_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+13831	Ah_04	2	1	1	0	1				NLR	present	variable_2
+13833	Ah_04	3	2	2	0	2			NLR	NLR	present	variable_3
+13837	Ah_04	2	2	2	0	2			NLR	NLR		variable_2
+13839	Ah_04	1	1	1	0	1					NLR	private
+13840	Ah_04	1	1	1	0	1		NLR				private
+13842	Ah_04	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+13854	Ah_04	1	1	1	0	1					NLR	private
+13857	Ah_04	5	4	5	0	5	NLR	NLR	NLR	NLR	NLR	core
+13862	Ah_04	3	2	2	0	2			NLR	NLR	present	variable_3
+13863	Ah_04	5	5	5	0	5	NLR	NLR	NLR	NLR	NLR	core
+13864	Ah_04	2	2	2	0	2	NLR		NLR			variable_2
+13866	Ah_04	3	2	2	0	2			NLR	NLR	present	variable_3
+13871	Ah_04	4	1	1	0	1	present		present	present	NLR	near_core
+13875	Ah_04	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+13876	Ah_04	1	1	1	0	1				NLR		private
+13923	Ah_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+13941	Ah_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+13945	Ah_04	2	1	1	0	1		NLR			present	variable_2
+13951	Ah_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+13963	Ah_04	2	2	2	0	2	NLR		NLR			variable_2
+14057	Ah_04	3	3	3	0	3	NLR	NLR	NLR			variable_3
+14095	Ah_04	4	1	1	0	1		present	present	present	NLR	near_core
+14116	Ah_04	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+14221	Ah_04	1	1	1	0	1			NLR			private
+16715	Ah_05	3	1	1	0	1	present			present	NLR	variable_3
+16716	Ah_05	5	1	1	0	1	present	present	present	present	NLR	core
+16720	Ah_05	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+16721	Ah_05	2	1	1	0	1	NLR				present	variable_2
+16981	Ah_05	1	1	1	0	1					NLR	private
+17009	Ah_05	3	2	2	0	2			NLR	NLR	present	variable_3
+18153	Ah_05	5	1	1	0	1	present	present	present	present	NLR	core
+18250	Ah_05	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+18251	Ah_05	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+19137	Ah_05	5	1	1	0	1	present	present	present	present	NLR	core
+19139	Ah_05	5	1	1	0	1	present	present	present	present	NLR	core
+19304	Ah_05	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+19305	Ah_05	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+20073	Ah_05	1	1	1	0	1					NLR	private
+20307	Ah_05	5	1	1	0	1	present	present	present	present	NLR	core
+20333	Ah_05	5	1	1	0	1	present	present	present	present	NLR	core
+20334	Ah_05	4	1	1	0	1	present	present		present	NLR	near_core
+20360	Ah_05	5	1	1	0	1	present	present	present	present	NLR	core
+20363	Ah_05	3	1	1	0	1	present		present		NLR	variable_3
+20376	Ah_05	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+20484	Ah_05	4	1	1	0	1	present	present	present		NLR	near_core
+20497	Ah_05	5	1	1	0	1	present	present	present	present	NLR	core
+20665	Ah_05	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+20666	Ah_05	2	2	2	0	2	NLR			NLR		variable_2
+20686	Ah_05	3	3	3	0	3	NLR	NLR	NLR			variable_3
+20688	Ah_05	1	1	1	0	1	NLR					private
+20692	Ah_05	3	2	2	0	2	NLR	NLR			present	variable_3
+20698	Ah_05	3	2	2	0	2	NLR	NLR			present	variable_3
+20699	Ah_05	3	3	3	0	3		NLR	NLR	NLR		variable_3
+20750	Ah_05	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+20751	Ah_05	1	1	1	0	1			NLR			private
+20857	Ah_05	1	1	1	0	1		NLR				private
+20858	Ah_05	3	2	2	0	2	NLR		NLR		present	variable_3
+20864	Ah_05	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+20865	Ah_05	1	1	1	0	1			NLR			private
+22623	Ah_05	5	1	1	0	1	present	present	present	present	NLR	core
+23365	Ah_05	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+23441	Ah_05	3	2	2	0	2			NLR	NLR	present	variable_3
+23872	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+23876	Ah_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+24113	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+24115	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+24134	Ah_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+24136	Ah_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+24772	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+24877	Ah_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+26896	Ah_06	1	1	1	0	1	NLR					private
+27025	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27120	Ah_06	1	1	1	0	1					NLR	private
+27210	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27214	Ah_06	4	1	1	0	1	present	present		present	NLR	near_core
+27221	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27226	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27227	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27229	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27231	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27236	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27237	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27266	Ah_06	1	1	1	0	1					NLR	private
+27268	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27270	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27283	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27321	Ah_06	3	1	1	0	1			present	present	NLR	variable_3
+27325	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27326	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27327	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27330	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27333	Ah_06	5	1	1	0	1	present	present	present	present	NLR	core
+27577	Ah_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+27682	Ah_06	2	1	1	0	1			NLR		present	variable_2
+27794	Ah_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+27795	Ah_06	3	3	3	0	3		NLR	NLR	NLR		variable_3
+27796	Ah_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+27797	Ah_06	1	1	1	0	1	NLR					private
+27803	Ah_06	1	1	1	0	1	NLR					private
+27806	Ah_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+27812	Ah_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+27815	Ah_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+27819	Ah_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+27825	Ah_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+27826	Ah_06	2	2	2	0	2			NLR	NLR		variable_2
+27858	Ah_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+27871	Ah_06	3	2	2	0	2			NLR	NLR	present	variable_3
+27875	Ah_06	4	3	3	0	3	NLR		NLR	NLR	present	near_core
+27906	Ah_06	4	2	3	0	3		NLR	NLR	NLR	present	near_core
+27910	Ah_06	5	1	4	0	4	NLR	NLR	NLR	NLR	present	core
+27912	Ah_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+27915	Ah_06	3	2	2	0	2	NLR			NLR	present	variable_3
+27916	Ah_06	2	1	1	0	1			NLR		present	variable_2
+27919	Ah_06	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+27921	Ah_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+28924	Ah_07	5	1	1	0	1	present	present	present	present	NLR	core
+28983	Ah_07	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+33726	Ah_08	5	1	1	0	1	present	present	present	present	NLR	core
+33786	Ah_08	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+35834	Ah_08	1	1	1	0	1					NLR	private
+35837	Ah_08	1	1	1	0	1					NLR	private
+35841	Ah_08	1	1	1	0	1					NLR	private
+36307	Ah_08	5	3	3	0	3	present	NLR	NLR	NLR	present	core
+36311	Ah_08	1	1	1	0	1	NLR					private
+36316	Ah_08	3	2	2	0	2		NLR	NLR		present	variable_3
+36319	Ah_08	1	1	1	0	1	NLR					private
+36338	Ah_08	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+36341	Ah_08	5	3	4	0	4	NLR	NLR	NLR	NLR	present	core
+36343	Ah_08	1	1	1	0	1			NLR			private
+38229	Ah_09	4	1	1	0	1		present	present	present	NLR	near_core
+38247	Ah_09	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+38348	Ah_09	5	1	1	0	1	present	present	present	present	NLR	core
+38379	Ah_09	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+39146	Ah_09	3	1	1	0	1			present	present	NLR	variable_3
+39354	Ah_09	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+40790	Ah_09	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+41921	Ah_09	5	1	1	0	1	present	present	present	present	NLR	core
+42404	Ah_09	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+43062	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+43066	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+43695	Ah_10	1	1	1	0	1					NLR	private
+43704	Ah_10	3	2	2	0	2	NLR	NLR			present	variable_3
+43705	Ah_10	1	1	1	0	1			NLR			private
+43706	Ah_10	1	1	1	0	1		NLR				private
+43760	Ah_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+43882	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+43965	Ah_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+44457	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+44649	Ah_10	2	1	1	0	1	NLR				present	variable_2
+44652	Ah_10	5	1	1	0	1	present	present	present	NLR	present	core
+45272	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+45313	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+45314	Ah_10	3	1	1	0	1	present			present	NLR	variable_3
+45370	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+45594	Ah_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+45636	Ah_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+45639	Ah_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+45696	Ah_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+46235	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+46365	Ah_10	1	1	1	0	1					NLR	private
+46491	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+46492	Ah_10	1	1	1	0	1					NLR	private
+46493	Ah_10	1	1	1	0	1					NLR	private
+46734	Ah_10	2	2	2	0	2	NLR			NLR		variable_2
+46739	Ah_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+46863	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+46868	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+46872	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+46873	Ah_10	2	1	1	0	1				present	NLR	variable_2
+46875	Ah_10	1	1	1	0	1					NLR	private
+46876	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+46877	Ah_10	3	1	1	0	1	present		present		NLR	variable_3
+46884	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+46975	Ah_10	3	1	1	0	1		present	present		NLR	variable_3
+46978	Ah_10	4	1	1	0	1	present	present		present	NLR	near_core
+46979	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+46980	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+46982	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+46987	Ah_10	1	1	1	0	1					NLR	private
+46990	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+46994	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+46996	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+47003	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+47008	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+47011	Ah_10	4	1	1	0	1		present	present	present	NLR	near_core
+47013	Ah_10	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+47015	Ah_10	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+47017	Ah_10	5	5	5	0	5	NLR	NLR	NLR	NLR	NLR	core
+47018	Ah_10	2	2	2	0	2		NLR			NLR	variable_2
+47022	Ah_10	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+47031	Ah_10	2	2	2	0	2		NLR			NLR	variable_2
+47033	Ah_10	1	1	1	0	1					NLR	private
+47184	Ah_10	1	1	1	0	1					NLR	private
+47185	Ah_10	5	1	1	0	1	present	present	present	present	NLR	core
+47328	Ah_10	1	1	1	0	1				NLR		private
+47386	Ah_10	3	3	3	0	3	NLR	NLR		NLR		variable_3
+47441	Ah_10	3	2	2	0	2	NLR			NLR	present	variable_3
+47446	Ah_10	1	1	1	0	1		NLR				private
+47450	Ah_10	3	2	2	0	2			NLR	NLR	present	variable_3
+47456	Ah_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+47457	Ah_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+47458	Ah_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+47464	Ah_10	3	2	2	0	2	NLR	NLR			present	variable_3
+47570	Ah_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+47572	Ah_10	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+47574	Ah_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+47577	Ah_10	3	2	2	0	2	NLR	NLR			present	variable_3
+47578	Ah_10	2	1	1	0	1		NLR			present	variable_2
+47580	Ah_10	5	3	4	0	4	NLR	NLR	NLR	NLR	present	core
+47589	Ah_10	2	1	1	0	1		NLR			present	variable_2
+47592	Ah_10	2	1	1	0	1		NLR			present	variable_2
+47593	Ah_10	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+47594	Ah_10	2	1	1	0	1		NLR			present	variable_2
+47604	Ah_10	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+47607	Ah_10	2	1	1	0	1		NLR			present	variable_2
+47619	Ah_10	4	1	1	0	1	present	NLR	present		present	near_core
+47622	Ah_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+47625	Ah_10	3	1	2	0	2		NLR	NLR		present	variable_3
+47777	Ah_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+47779	Ah_10	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+47799	Ah_10	2	2	2	0	2		NLR	NLR			variable_2
+47805	Ah_10	2	2	2	0	2		NLR		NLR		variable_2
+48339	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+48379	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+49674	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+49799	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+49800	Ah_11	3	2	2	0	2		NLR		NLR	present	variable_3
+49898	Ah_11	2	1	1	0	1			present		NLR	variable_2
+49924	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+49936	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+49937	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+50034	Ah_11	2	1	1	0	1			present		NLR	variable_2
+50071	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+50098	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+50111	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+50250	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+51673	Ah_11	2	1	1	0	1			present		NLR	variable_2
+51684	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+52222	Ah_11	3	1	1	0	1	present		present		NLR	variable_3
+52224	Ah_11	3	3	3	0	3	NLR		NLR		NLR	variable_3
+52227	Ah_11	2	1	1	0	1		NLR			present	variable_2
+52229	Ah_11	1	1	1	0	1				NLR		private
+52240	Ah_11	1	1	1	0	1					NLR	private
+52279	Ah_11	3	1	2	0	2			NLR	NLR	present	variable_3
+52280	Ah_11	1	1	1	0	1				NLR		private
+52640	Ah_11	3	1	1	0	1			present	present	NLR	variable_3
+52707	Ah_11	1	1	1	0	1					NLR	private
+52720	Ah_11	1	1	1	0	1					NLR	private
+52722	Ah_11	1	1	1	0	1					NLR	private
+52723	Ah_11	1	1	1	0	1					NLR	private
+52729	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+52731	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+52736	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+52766	Ah_11	1	1	1	0	1					NLR	private
+52767	Ah_11	3	1	1	0	1	present			present	NLR	variable_3
+52771	Ah_11	1	1	1	0	1					NLR	private
+52773	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+52774	Ah_11	3	1	1	0	1	present			present	NLR	variable_3
+52775	Ah_11	3	1	1	0	1		present	present		NLR	variable_3
+52791	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+52793	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+52797	Ah_11	1	1	1	0	1					NLR	private
+52813	Ah_11	1	1	1	0	1					NLR	private
+52817	Ah_11	1	1	1	0	1					NLR	private
+52818	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+52829	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+52846	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+52854	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+52861	Ah_11	1	1	1	0	1					NLR	private
+52890	Ah_11	3	2	2	0	2		NLR	NLR		present	variable_3
+52896	Ah_11	2	1	1	0	1			NLR		present	variable_2
+52902	Ah_11	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+52914	Ah_11	2	1	1	0	1	NLR				present	variable_2
+52949	Ah_11	1	1	1	0	1					NLR	private
+52960	Ah_11	1	1	1	0	1					NLR	private
+52976	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53190	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53192	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53196	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53199	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53201	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53212	Ah_11	2	1	1	0	1				present	NLR	variable_2
+53268	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53276	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53279	Ah_11	1	1	1	0	1				NLR		private
+53293	Ah_11	3	1	1	0	1		present		present	NLR	variable_3
+53301	Ah_11	3	2	2	0	2	NLR		NLR		present	variable_3
+53339	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53356	Ah_11	3	2	2	0	2		NLR	NLR		present	variable_3
+53364	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53365	Ah_11	5	3	3	0	3	NLR	NLR	present	NLR	present	core
+53370	Ah_11	2	1	1	0	1				NLR	present	variable_2
+53375	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53382	Ah_11	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+53398	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53399	Ah_11	2	1	1	0	1			NLR		present	variable_2
+53401	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53402	Ah_11	2	2	2	0	2	NLR		NLR			variable_2
+53404	Ah_11	2	2	2	0	2	NLR	NLR				variable_2
+53406	Ah_11	3	2	2	0	2			NLR	NLR	present	variable_3
+53409	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53410	Ah_11	2	2	2	0	2		NLR		NLR		variable_2
+53414	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53417	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53418	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53435	Ah_11	2	2	2	0	2			NLR	NLR		variable_2
+53436	Ah_11	4	1	1	0	1	present		present	NLR	present	near_core
+53440	Ah_11	4	4	4	0	4		NLR	NLR	NLR	NLR	near_core
+53457	Ah_11	1	1	1	0	1					NLR	private
+53459	Ah_11	3	2	2	0	2		NLR		NLR	present	variable_3
+53475	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53480	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53481	Ah_11	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+53500	Ah_11	1	1	1	0	1					NLR	private
+53505	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53506	Ah_11	1	1	1	0	1					NLR	private
+53509	Ah_11	4	1	1	0	1	present		present	present	NLR	near_core
+53518	Ah_11	3	1	1	0	1	present			present	NLR	variable_3
+53521	Ah_11	4	1	3	0	3		NLR	present	NLR	NLR	near_core
+53527	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53536	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53561	Ah_11	3	1	1	0	1		present	present		NLR	variable_3
+53562	Ah_11	2	1	1	0	1	present				NLR	variable_2
+53570	Ah_11	1	1	1	0	1					NLR	private
+53571	Ah_11	2	1	1	0	1	present				NLR	variable_2
+53575	Ah_11	1	1	1	0	1					NLR	private
+53586	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53587	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53588	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53592	Ah_11	1	1	1	0	1					NLR	private
+53593	Ah_11	1	1	1	0	1					NLR	private
+53594	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53600	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53602	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53603	Ah_11	4	1	1	0	1		present	present	present	NLR	near_core
+53606	Ah_11	4	1	1	0	1	present	present		present	NLR	near_core
+53608	Ah_11	4	1	1	0	1	present	present		present	NLR	near_core
+53619	Ah_11	5	1	1	0	1	present	present	present	present	NLR	core
+53629	Ah_11	2	2	2	0	2			NLR	NLR		variable_2
+53630	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53640	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53830	Ah_11	2	2	2	0	2		NLR		NLR		variable_2
+53843	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53844	Ah_11	1	1	1	0	1				NLR		private
+53850	Ah_11	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+53853	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53863	Ah_11	1	1	1	0	1				NLR		private
+53869	Ah_11	1	1	1	0	1		NLR				private
+53872	Ah_11	1	1	1	0	1			NLR			private
+53875	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+53877	Ah_11	4	3	3	0	3	NLR		NLR	NLR	present	near_core
+53884	Ah_11	1	1	1	0	1		NLR				private
+53926	Ah_11	2	1	1	0	1		NLR			present	variable_2
+53940	Ah_11	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+53941	Ah_11	5	1	4	0	4	NLR	NLR	NLR	NLR	present	core
+53946	Ah_11	2	1	1	0	1				NLR	present	variable_2
+53952	Ah_11	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+54093	Ah_11	2	1	1	0	1	NLR				present	variable_2
+54112	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+54115	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+54122	Ah_11	2	1	1	0	1		NLR			present	variable_2
+54129	Ah_11	2	2	2	0	2		NLR	NLR			variable_2
+54165	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+54169	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+54171	Ah_11	5	3	3	0	3	present	NLR	NLR	NLR	present	core
+54174	Ah_11	1	1	1	0	1	NLR					private
+54178	Ah_11	1	1	1	0	1				NLR		private
+54183	Ah_11	2	2	2	0	2		NLR	NLR			variable_2
+54186	Ah_11	1	1	1	0	1			NLR			private
+54192	Ah_11	3	2	2	0	2		NLR	NLR		present	variable_3
+54194	Ah_11	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+54195	Ah_11	2	1	1	0	1		NLR			present	variable_2
+54196	Ah_11	2	2	2	0	2	NLR	NLR				variable_2
+54239	Ah_11	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+54240	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+54241	Ah_11	4	1	3	0	3	NLR	NLR	NLR		present	near_core
+54250	Ah_11	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+54251	Ah_11	2	2	2	0	2		NLR		NLR		variable_2
+54260	Ah_11	3	3	3	0	3	NLR	NLR	NLR			variable_3
+54268	Ah_11	3	2	2	0	2		NLR	NLR		present	variable_3
+54269	Ah_11	1	1	1	0	1	NLR					private
+54274	Ah_11	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+54276	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+54279	Ah_11	1	1	1	0	1				NLR		private
+54281	Ah_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+54299	Ah_11	4	3	4	0	4	NLR	NLR	NLR	NLR		near_core
+55554	Ah_12	2	2	2	0	2		NLR	NLR			variable_2
+56466	Ah_12	5	1	1	0	1	present	present	present	present	NLR	core
+56870	Ah_12	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+57727	Ah_12	1	1	1	0	1					NLR	private
+58107	Ah_12	3	1	1	0	1			present	present	NLR	variable_3
+58130	Ah_12	5	1	1	0	1	present	present	present	present	NLR	core
+58211	Ah_12	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+58620	Ah_12	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+58635	Ah_12	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+61355	Ah_13	1	1	1	0	1					NLR	private
+61356	Ah_13	2	1	1	0	1	present				NLR	variable_2
+61357	Ah_13	5	1	1	0	1	present	present	present	present	NLR	core
+61734	Ah_13	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+61769	Ah_13	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+62251	Ah_13	2	2	2	0	2		NLR	NLR			variable_2
+63135	Ah_13	1	1	1	0	1					NLR	private
+63136	Ah_13	5	1	1	0	1	present	present	present	present	NLR	core
+63137	Ah_13	2	1	1	0	1		present			NLR	variable_2
+63140	Ah_13	5	1	1	0	1	present	present	present	present	NLR	core
+63142	Ah_13	5	1	1	0	1	present	present	present	present	NLR	core
+63143	Ah_13	5	1	1	0	1	present	present	present	present	NLR	core
+63144	Ah_13	4	1	1	0	1	present	present		present	NLR	near_core
+63146	Ah_13	2	1	1	0	1	present				NLR	variable_2
+63438	Ah_13	5	1	1	0	1	present	present	present	present	NLR	core
+63661	Ah_13	3	3	3	0	3		NLR	NLR	NLR		variable_3
+63667	Ah_13	2	1	1	0	1	NLR				present	variable_2
+63669	Ah_13	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+63670	Ah_13	2	1	1	0	1				NLR	present	variable_2
+63671	Ah_13	5	1	4	0	4	NLR	NLR	NLR	NLR	present	core
+63674	Ah_13	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+63675	Ah_13	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+63676	Ah_13	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+63678	Ah_13	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+63679	Ah_13	1	1	1	0	1	NLR					private
+63977	Ah_13	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+64421	Dh_01	5	1	1	0	1	present	present	present	present	NLR	core
+64424	Dh_01	5	1	1	0	1	present	present	present	present	NLR	core
+64425	Dh_01	5	1	1	0	1	present	present	present	present	NLR	core
+64427	Dh_01	5	1	1	0	1	present	present	present	present	NLR	core
+64430	Dh_01	5	5	5	0	5	NLR	NLR	NLR	NLR	NLR	core
+64431	Dh_01	5	2	3	0	3	NLR	present	NLR	present	NLR	core
+64432	Dh_01	1	1	1	0	1					NLR	private
+64433	Dh_01	1	1	1	0	1		NLR				private
+64436	Dh_01	5	5	5	0	5	NLR	NLR	NLR	NLR	NLR	core
+64437	Dh_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+64440	Dh_01	3	3	3	0	3	NLR		NLR		NLR	variable_3
+64443	Dh_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+64447	Dh_01	2	2	2	0	2		NLR	NLR			variable_2
+64454	Dh_01	5	1	1	0	1	present	present	present	present	NLR	core
+64457	Dh_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+64460	Dh_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+64732	Dh_01	1	1	1	0	1					NLR	private
+64735	Dh_01	5	1	1	0	1	present	present	present	present	NLR	core
+64738	Dh_01	1	1	1	0	1					NLR	private
+64739	Dh_01	1	1	1	0	1					NLR	private
+64740	Dh_01	2	1	1	0	1		present			NLR	variable_2
+64762	Dh_01	5	1	1	0	1	present	present	present	present	NLR	core
+64763	Dh_01	5	1	1	0	1	present	present	present	present	NLR	core
+64772	Dh_01	1	1	1	0	1					NLR	private
+64783	Dh_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+64785	Dh_01	2	1	1	0	1			NLR		present	variable_2
+64787	Dh_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+64793	Dh_01	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+64799	Dh_01	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+64818	Dh_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+64819	Dh_01	4	1	2	0	2	NLR		present	NLR	present	near_core
+64821	Dh_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+64824	Dh_01	3	2	2	0	2		NLR		NLR	present	variable_3
+64830	Dh_01	3	2	2	0	2		NLR		NLR	present	variable_3
+65027	Dh_01	5	1	1	0	1	present	present	present	present	NLR	core
+65029	Dh_01	5	1	1	0	1	present	present	present	present	NLR	core
+65052	Dh_01	5	1	1	0	1	present	present	present	present	NLR	core
+65055	Dh_01	5	1	1	0	1	present	present	present	present	NLR	core
+65098	Dh_01	2	1	1	0	1	NLR				present	variable_2
+65102	Dh_01	4	3	3	0	3	NLR		NLR	NLR	present	near_core
+65126	Dh_01	4	3	3	0	3	NLR		NLR	NLR	present	near_core
+65139	Dh_01	4	2	3	0	3		NLR	NLR	NLR	present	near_core
+65140	Dh_01	1	1	1	0	1			NLR			private
+65146	Dh_01	3	3	3	0	3	NLR	NLR		NLR		variable_3
+65161	Dh_01	5	1	1	0	1	present	present	present	present	NLR	core
+65172	Dh_01	2	1	1	0	1	present				NLR	variable_2
+65274	Dh_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+65288	Dh_01	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+67416	Dh_01	1	1	1	0	1					NLR	private
+68657	Dh_02	5	1	1	0	1	present	present	present	present	NLR	core
+68659	Dh_02	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+69141	Dh_02	5	1	1	0	1	present	present	present	present	NLR	core
+69151	Dh_02	5	1	1	0	1	present	present	present	present	NLR	core
+69152	Dh_02	1	1	1	0	1					NLR	private
+69370	Dh_02	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+69380	Dh_02	1	1	1	0	1	NLR					private
+69384	Dh_02	3	2	2	0	2		NLR		NLR	present	variable_3
+69386	Dh_02	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+72124	Dh_02	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+72125	Dh_02	3	2	2	0	2	NLR	NLR			present	variable_3
+72147	Dh_02	3	1	1	0	1		present	present		NLR	variable_3
+72148	Dh_02	4	1	1	0	1	present	present		present	NLR	near_core
+72170	Dh_02	2	1	1	0	1		present			NLR	variable_2
+72173	Dh_02	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+72178	Dh_02	4	2	3	0	3	NLR	NLR	NLR		present	near_core
+72180	Dh_02	3	3	3	0	3	NLR		NLR	NLR		variable_3
+72181	Dh_02	2	1	1	0	1		NLR			present	variable_2
+72182	Dh_02	4	1	1	0	1	present		present	present	NLR	near_core
+72184	Dh_02	5	1	1	0	1	present	present	present	present	NLR	core
+72191	Dh_02	5	1	1	0	1	present	present	present	present	NLR	core
+72460	Dh_03	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+72477	Dh_03	4	2	3	0	3	NLR	NLR		NLR	present	near_core
+72484	Dh_03	2	1	1	0	1		NLR			present	variable_2
+72545	Dh_03	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+72607	Dh_03	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+72608	Dh_03	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+72609	Dh_03	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+72610	Dh_03	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+72611	Dh_03	2	1	1	0	1			NLR		present	variable_2
+72612	Dh_03	2	1	1	0	1	NLR				present	variable_2
+72633	Dh_03	3	3	3	0	3	NLR		NLR	NLR		variable_3
+72636	Dh_03	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+72836	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+72842	Dh_03	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+72844	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+72851	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+72862	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+72863	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+72873	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+72877	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+72879	Dh_03	1	1	1	0	1					NLR	private
+72880	Dh_03	4	1	1	0	1	present	present		present	NLR	near_core
+72882	Dh_03	4	1	1	0	1	present		present	present	NLR	near_core
+72895	Dh_03	4	1	1	0	1	present		present	present	NLR	near_core
+72898	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+72899	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+72905	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+72907	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+72911	Dh_03	1	1	1	0	1					NLR	private
+72917	Dh_03	1	1	1	0	1					NLR	private
+72974	Dh_03	1	1	1	0	1					NLR	private
+73035	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+73039	Dh_03	4	1	1	0	1	present	present	present		NLR	near_core
+73041	Dh_03	1	1	1	0	1					NLR	private
+73042	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+73046	Dh_03	1	1	1	0	1					NLR	private
+73047	Dh_03	1	1	1	0	1					NLR	private
+73049	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+73248	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+74281	Dh_03	5	1	1	0	1	present	present	present	present	NLR	core
+74787	Dh_03	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+75027	Dh_03	1	1	1	0	1					NLR	private
+75492	Dh_03	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+76564	Dh_04	4	3	3	0	3	NLR		NLR	NLR	present	near_core
+76799	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+76823	Dh_04	4	1	1	0	1		present	present	NLR	present	near_core
+76841	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+76849	Dh_04	2	1	2	0	2	NLR		NLR			variable_2
+76868	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+76874	Dh_04	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+76875	Dh_04	2	1	1	0	1				NLR	present	variable_2
+76876	Dh_04	2	2	2	0	2	NLR			NLR		variable_2
+76881	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+76885	Dh_04	1	1	1	0	1				NLR		private
+76904	Dh_04	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+76923	Dh_04	3	2	2	0	2		NLR	NLR		present	variable_3
+76924	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+76935	Dh_04	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+76936	Dh_04	1	1	1	0	1			NLR			private
+76954	Dh_04	5	1	2	2	4	NLR	NLR	NLR	NLR	present	core
+77010	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+77015	Dh_04	3	2	2	0	2	NLR		NLR		present	variable_3
+77121	Dh_04	2	2	2	0	2	NLR		NLR			variable_2
+77122	Dh_04	3	2	2	0	2		NLR		NLR	present	variable_3
+77145	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+77151	Dh_04	5	1	1	0	1	present	present	present	present	NLR	core
+77154	Dh_04	3	2	2	0	2		NLR	NLR		present	variable_3
+77256	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+77258	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+77267	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+77269	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+77271	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+77299	Dh_04	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+77301	Dh_04	1	1	1	0	1			NLR			private
+77302	Dh_04	2	2	2	0	2		NLR	NLR			variable_2
+77303	Dh_04	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+77307	Dh_04	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+77308	Dh_04	1	1	1	0	1	NLR					private
+77310	Dh_04	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+77324	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+77327	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+77329	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+77331	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+77332	Dh_04	3	2	2	0	2		NLR		NLR	present	variable_3
+77336	Dh_04	2	2	2	0	2		NLR	NLR			variable_2
+77341	Dh_04	5	4	5	0	5	NLR	NLR	NLR	NLR	NLR	core
+77397	Dh_04	5	1	1	0	1	present	present	present	present	NLR	core
+77400	Dh_04	5	1	1	0	1	present	present	present	present	NLR	core
+77410	Dh_04	1	1	1	0	1					NLR	private
+77415	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+77421	Dh_04	2	1	1	0	1				present	NLR	variable_2
+77430	Dh_04	1	1	1	0	1					NLR	private
+77433	Dh_04	2	2	2	0	2	NLR			NLR		variable_2
+77434	Dh_04	1	1	1	0	1					NLR	private
+77441	Dh_04	2	2	2	0	2			NLR		NLR	variable_2
+77447	Dh_04	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+77449	Dh_04	3	3	3	0	3			NLR	NLR	NLR	variable_3
+77455	Dh_04	2	2	2	0	2	NLR			NLR		variable_2
+77460	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+77466	Dh_04	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+77476	Dh_04	5	1	1	0	1	present	present	present	present	NLR	core
+77496	Dh_04	2	1	1	0	1				present	NLR	variable_2
+77499	Dh_04	2	1	1	0	1				present	NLR	variable_2
+77517	Dh_04	3	3	3	0	3	NLR	NLR	NLR			variable_3
+77518	Dh_04	1	1	1	0	1	NLR					private
+77519	Dh_04	1	1	1	0	1				NLR		private
+77530	Dh_04	5	1	1	0	1	present	present	present	present	NLR	core
+77531	Dh_04	2	1	1	0	1			present		NLR	variable_2
+77533	Dh_04	5	1	1	0	1	present	present	present	present	NLR	core
+77535	Dh_04	1	1	1	0	1					NLR	private
+77541	Dh_04	1	1	1	0	1					NLR	private
+77548	Dh_04	1	1	1	0	1					NLR	private
+77553	Dh_04	5	1	1	0	1	present	present	present	present	NLR	core
+77573	Dh_04	5	1	1	0	1	present	present	present	present	NLR	core
+77671	Dh_04	3	2	2	0	2	NLR		NLR		present	variable_3
+77673	Dh_04	3	2	2	0	2	NLR		NLR		present	variable_3
+77687	Dh_04	5	1	1	0	1	present	present	present	present	NLR	core
+77689	Dh_04	5	1	1	0	1	present	present	present	present	NLR	core
+77691	Dh_04	3	2	2	0	2		NLR		NLR	present	variable_3
+77708	Dh_04	2	2	2	0	2		NLR		NLR		variable_2
+77765	Dh_04	2	1	1	0	1				present	NLR	variable_2
+77768	Dh_04	3	1	1	0	1		present		present	NLR	variable_3
+77769	Dh_04	3	1	1	0	1		present		present	NLR	variable_3
+77784	Dh_04	3	1	1	0	1		present		present	NLR	variable_3
+77787	Dh_04	3	1	1	0	1		present		present	NLR	variable_3
+77789	Dh_04	3	1	1	0	1		present		present	NLR	variable_3
+77793	Dh_04	3	1	1	0	1		present		present	NLR	variable_3
+77808	Dh_04	1	1	1	0	1					NLR	private
+77809	Dh_04	4	1	1	0	1	present		present	present	NLR	near_core
+77812	Dh_04	3	1	1	0	1		present		present	NLR	variable_3
+77813	Dh_04	3	1	1	0	1		present		present	NLR	variable_3
+77817	Dh_04	3	1	1	0	1		present		present	NLR	variable_3
+77818	Dh_04	3	1	1	0	1		present		present	NLR	variable_3
+77826	Dh_04	2	1	1	0	1		present			NLR	variable_2
+77831	Dh_04	5	1	1	0	1	present	present	present	present	NLR	core
+77838	Dh_04	2	1	1	0	1	present				NLR	variable_2
+77839	Dh_04	3	1	1	0	1	present		present		NLR	variable_3
+77846	Dh_04	5	1	1	0	1	present	present	present	present	NLR	core
+77847	Dh_04	5	1	1	0	1	present	present	present	present	NLR	core
+80020	Dh_05	5	1	1	0	1	present	present	present	present	NLR	core
+80021	Dh_05	4	1	1	0	1		present	present	present	NLR	near_core
+80026	Dh_05	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+80027	Dh_05	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+80314	Dh_05	4	1	1	0	1		present	present	present	NLR	near_core
+80334	Dh_05	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+81460	Dh_05	5	1	1	0	1	present	present	present	present	NLR	core
+81558	Dh_05	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+82458	Dh_05	5	1	1	0	1	present	present	present	present	NLR	core
+82610	Dh_05	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+83306	Dh_05	2	1	1	0	1		present			NLR	variable_2
+83511	Dh_05	1	1	1	0	1					NLR	private
+83513	Dh_05	5	1	1	0	1	present	present	present	present	NLR	core
+83532	Dh_05	5	1	1	0	1	present	present	present	present	NLR	core
+83556	Dh_05	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+83562	Dh_05	5	1	1	0	1	present	present	present	present	NLR	core
+83565	Dh_05	5	1	1	0	1	present	present	present	present	NLR	core
+83803	Dh_05	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+83820	Dh_05	1	1	1	0	1		NLR				private
+83827	Dh_05	3	2	2	0	2			NLR	NLR	present	variable_3
+83830	Dh_05	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+83880	Dh_05	2	1	1	0	1		NLR			present	variable_2
+84429	Dh_05	5	1	1	0	1	present	present	present	present	NLR	core
+84431	Dh_05	2	1	1	0	1		present			NLR	variable_2
+84434	Dh_05	1	1	1	0	1					NLR	private
+84607	Dh_05	1	1	1	0	1					NLR	private
+84613	Dh_05	3	1	1	0	1	present			present	NLR	variable_3
+86186	Dh_05	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+86243	Dh_05	5	1	1	0	1	present	present	present	present	NLR	core
+86322	Dh_05	5	1	1	0	1	present	present	present	present	NLR	core
+86728	Dh_06	5	1	1	0	1	present	present	present	present	NLR	core
+86735	Dh_06	1	1	1	0	1					NLR	private
+86742	Dh_06	1	1	1	0	1		NLR				private
+86743	Dh_06	4	2	4	0	4	NLR	NLR	NLR		NLR	near_core
+86747	Dh_06	5	3	4	0	4	NLR	NLR	NLR	NLR	present	core
+86938	Dh_06	5	1	1	0	1	present	present	present	present	NLR	core
+86963	Dh_06	2	2	2	0	2	NLR			NLR		variable_2
+86965	Dh_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+87626	Dh_06	3	1	1	0	1		present	present		NLR	variable_3
+87747	Dh_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+89264	Dh_06	5	1	1	0	1	present	present	present	present	NLR	core
+89638	Dh_06	1	1	1	0	1					NLR	private
+89887	Dh_06	5	1	1	0	1	present	present	present	present	NLR	core
+89893	Dh_06	5	1	1	0	1	present	present	present	present	NLR	core
+89903	Dh_06	5	1	1	0	1	present	present	present	present	NLR	core
+89911	Dh_06	5	1	1	0	1	present	present	present	present	NLR	core
+89946	Dh_06	4	1	1	0	1	present		present	present	NLR	near_core
+89971	Dh_06	3	1	1	0	1	present		present		NLR	variable_3
+90014	Dh_06	1	1	1	0	1					NLR	private
+90165	Dh_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+90431	Dh_06	5	3	4	0	4	NLR	NLR	NLR	NLR	present	core
+90432	Dh_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+90438	Dh_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+90444	Dh_06	3	3	3	0	3		NLR	NLR	NLR		variable_3
+90448	Dh_06	2	1	1	0	1	NLR				present	variable_2
+90450	Dh_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+90484	Dh_06	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+90485	Dh_06	5	2	4	0	4	NLR	NLR	NLR	NLR	present	core
+90510	Dh_06	3	2	2	0	2	NLR	NLR			present	variable_3
+90563	Dh_06	1	1	1	0	1	NLR					private
+90564	Dh_06	1	1	1	0	1		NLR				private
+91587	Dh_07	5	1	1	0	1	present	present	present	present	NLR	core
+91644	Dh_07	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+95854	Dh_08	5	1	1	0	1	present	present	present	present	NLR	core
+95923	Dh_08	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+96910	Dh_08	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+97615	Dh_08	3	1	1	0	1			present	present	NLR	variable_3
+97629	Dh_08	3	1	1	0	1	present		present		NLR	variable_3
+98118	Dh_08	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+98132	Dh_08	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+98136	Dh_08	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+98138	Dh_08	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+100186	Dh_09	1	1	1	0	1		NLR				private
+100651	Dh_09	5	1	1	0	1	present	present	present	present	NLR	core
+100831	Dh_09	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+101439	Dh_09	3	1	1	0	1	present			present	NLR	variable_3
+101687	Dh_09	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+101834	Dh_09	5	1	1	0	1	present	present	present	present	NLR	core
+102155	Dh_09	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+103052	Dh_09	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+104304	Dh_10	1	1	1	0	1		NLR				private
+104891	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+104927	Dh_10	2	2	2	0	2		NLR	NLR			variable_2
+104928	Dh_10	2	1	1	0	1				NLR	present	variable_2
+104939	Dh_10	2	1	1	0	1			present		NLR	variable_2
+104998	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+104999	Dh_10	5	1	4	0	4	NLR	NLR	NLR	NLR	present	core
+105000	Dh_10	2	1	1	0	1			NLR		present	variable_2
+105156	Dh_10	3	1	1	0	1		NLR	present	present		variable_3
+105224	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+105909	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+106297	Dh_10	3	1	1	0	1	present			present	NLR	variable_3
+106299	Dh_10	3	1	1	0	1		present		present	NLR	variable_3
+106881	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+107540	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+107688	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+107878	Dh_10	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+107943	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108004	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108005	Dh_10	4	1	1	0	1	present	present	present		NLR	near_core
+108009	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108011	Dh_10	1	1	1	0	1					NLR	private
+108068	Dh_10	1	1	1	0	1					NLR	private
+108069	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108072	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108073	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108074	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108076	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108077	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108083	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108131	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+108133	Dh_10	2	1	1	0	1		NLR			present	variable_2
+108224	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108226	Dh_10	4	1	1	0	1	present	present		present	NLR	near_core
+108229	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108230	Dh_10	1	1	1	0	1					NLR	private
+108242	Dh_10	4	1	1	0	1	present		present	present	NLR	near_core
+108258	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108261	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108263	Dh_10	3	1	1	0	1	present			present	NLR	variable_3
+108407	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108410	Dh_10	5	1	1	0	1	present	present	present	present	NLR	core
+108411	Dh_10	1	1	1	0	1					NLR	private
+108466	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+108524	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+108528	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+108532	Dh_10	4	2	3	0	3		NLR	NLR	NLR	present	near_core
+108533	Dh_10	4	1	2	0	2	NLR	present		NLR	present	near_core
+108536	Dh_10	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+108537	Dh_10	2	2	2	0	2		NLR		NLR		variable_2
+108538	Dh_10	5	1	1	0	1	NLR	present	present	present	present	core
+108543	Dh_10	1	1	1	0	1			NLR			private
+108547	Dh_10	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+108608	Dh_10	2	2	2	0	2	NLR	NLR				variable_2
+108610	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+108614	Dh_10	3	3	3	0	3	NLR	NLR		NLR		variable_3
+108617	Dh_10	3	2	2	0	2			NLR	NLR	present	variable_3
+108618	Dh_10	3	3	3	0	3		NLR	NLR	NLR		variable_3
+108622	Dh_10	3	2	2	0	2			NLR	NLR	present	variable_3
+108624	Dh_10	3	2	2	0	2			NLR	NLR	present	variable_3
+108625	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+108631	Dh_10	2	2	2	0	2			NLR	NLR		variable_2
+108642	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+108747	Dh_10	2	2	2	0	2		NLR		NLR		variable_2
+108754	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+108757	Dh_10	1	1	1	0	1		NLR				private
+108764	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+108770	Dh_10	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+108778	Dh_10	2	2	2	0	2	NLR		NLR			variable_2
+108787	Dh_10	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+108789	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+108792	Dh_10	5	3	4	0	4	NLR	NLR	NLR	NLR	present	core
+108794	Dh_10	3	3	3	0	3		NLR	NLR	NLR		variable_3
+108808	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+108944	Dh_10	2	1	1	0	1				NLR	present	variable_2
+108949	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+108950	Dh_10	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+108952	Dh_10	3	3	3	0	3		NLR	NLR	NLR		variable_3
+108956	Dh_10	1	1	1	0	1			NLR			private
+109457	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+109495	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+109815	Dh_11	1	1	1	0	1	NLR					private
+110917	Dh_11	1	1	1	0	1				NLR		private
+110997	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+111022	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+111047	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+111048	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+111119	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+111171	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+111193	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+111209	Dh_11	1	1	1	0	1		NLR				private
+111210	Dh_11	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+111211	Dh_11	3	2	2	0	2			NLR	NLR	present	variable_3
+111213	Dh_11	1	1	1	0	1	NLR					private
+111300	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+111911	Dh_11	1	1	1	0	1					NLR	private
+111929	Dh_11	1	1	1	0	1					NLR	private
+112876	Dh_11	3	2	2	0	2	NLR			NLR	present	variable_3
+113039	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113041	Dh_11	4	3	4	0	4		NLR	NLR	NLR	NLR	near_core
+113046	Dh_11	1	1	1	0	1					NLR	private
+113048	Dh_11	1	1	1	0	1	NLR					private
+113051	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113052	Dh_11	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+113053	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+113312	Dh_11	1	1	1	0	1	NLR					private
+113314	Dh_11	2	1	1	0	1	NLR	present				variable_2
+113325	Dh_11	2	2	2	0	2	NLR	NLR				variable_2
+113424	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113430	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113473	Dh_11	1	1	1	0	1					NLR	private
+113479	Dh_11	3	1	1	0	1		present	present		NLR	variable_3
+113486	Dh_11	4	1	1	0	1	present		present	present	NLR	near_core
+113489	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113497	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113499	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113512	Dh_11	3	1	1	0	1		present	present		NLR	variable_3
+113514	Dh_11	3	1	1	0	1		present	present		NLR	variable_3
+113525	Dh_11	4	1	1	0	1		present	present	present	NLR	near_core
+113532	Dh_11	2	1	1	0	1	present				NLR	variable_2
+113545	Dh_11	1	1	1	0	1					NLR	private
+113547	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113548	Dh_11	1	1	1	0	1					NLR	private
+113549	Dh_11	2	1	1	0	1		present			NLR	variable_2
+113551	Dh_11	4	1	1	0	1	present	present	present		NLR	near_core
+113558	Dh_11	2	1	1	0	1				present	NLR	variable_2
+113560	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113569	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113573	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113584	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113592	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113598	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113599	Dh_11	2	1	1	0	1	present				NLR	variable_2
+113601	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113602	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113603	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113615	Dh_11	1	1	1	0	1					NLR	private
+113620	Dh_11	1	1	1	0	1	NLR					private
+113621	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+113624	Dh_11	4	1	1	0	1		present	present	present	NLR	near_core
+113625	Dh_11	3	1	1	0	1			present	present	NLR	variable_3
+113626	Dh_11	2	1	1	0	1			present		NLR	variable_2
+113628	Dh_11	4	3	4	0	4		NLR	NLR	NLR	NLR	near_core
+113629	Dh_11	3	1	1	0	1	present	present			NLR	variable_3
+113633	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+113636	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113641	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113651	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113652	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113663	Dh_11	3	1	1	0	1			present	present	NLR	variable_3
+113760	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113765	Dh_11	1	1	1	0	1					NLR	private
+113768	Dh_11	1	1	1	0	1					NLR	private
+113769	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113791	Dh_11	2	1	1	0	1			present		NLR	variable_2
+113816	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113940	Dh_11	3	1	1	0	1		present		present	NLR	variable_3
+113947	Dh_11	2	1	1	0	1		present			NLR	variable_2
+113959	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113961	Dh_11	1	1	1	0	1					NLR	private
+113962	Dh_11	4	1	1	0	1	present	present	present		NLR	near_core
+113967	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+113980	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114014	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114016	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114022	Dh_11	2	1	1	0	1				present	NLR	variable_2
+114029	Dh_11	5	5	5	0	5	NLR	NLR	NLR	NLR	NLR	core
+114035	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114041	Dh_11	4	1	1	0	1	present		present	present	NLR	near_core
+114042	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114054	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114057	Dh_11	4	1	1	0	1	present		present	present	NLR	near_core
+114061	Dh_11	2	1	1	0	1	present				NLR	variable_2
+114081	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114096	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114101	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114102	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114109	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114122	Dh_11	4	3	3	0	3	NLR		NLR	NLR	present	near_core
+114139	Dh_11	2	1	1	0	1	NLR				present	variable_2
+114141	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114157	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114158	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114160	Dh_11	4	3	3	0	3	NLR		NLR	NLR	present	near_core
+114162	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114165	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114166	Dh_11	5	5	5	0	5	NLR	NLR	NLR	NLR	NLR	core
+114172	Dh_11	4	1	1	0	1	present	present		present	NLR	near_core
+114177	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114181	Dh_11	5	4	5	0	5	NLR	NLR	NLR	NLR	NLR	core
+114182	Dh_11	2	1	1	0	1		present			NLR	variable_2
+114184	Dh_11	1	1	1	0	1					NLR	private
+114186	Dh_11	5	5	5	0	5	NLR	NLR	NLR	NLR	NLR	core
+114191	Dh_11	2	1	1	0	1		present			NLR	variable_2
+114195	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114199	Dh_11	1	1	1	0	1					NLR	private
+114205	Dh_11	2	1	1	0	1		present			NLR	variable_2
+114206	Dh_11	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+114211	Dh_11	4	2	4	0	4		NLR	NLR	NLR	NLR	near_core
+114212	Dh_11	2	2	2	0	2				NLR	NLR	variable_2
+114216	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114218	Dh_11	3	3	3	0	3	NLR		NLR	NLR		variable_3
+114221	Dh_11	3	1	2	0	2			NLR	NLR	present	variable_3
+114222	Dh_11	2	1	2	0	2			NLR		NLR	variable_2
+114223	Dh_11	1	1	1	0	1	NLR					private
+114224	Dh_11	2	1	2	0	2			NLR		NLR	variable_2
+114226	Dh_11	2	1	1	0	1			NLR		present	variable_2
+114239	Dh_11	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+114242	Dh_11	1	1	1	0	1		NLR				private
+114244	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114250	Dh_11	5	3	3	0	3	present	NLR	NLR	NLR	present	core
+114253	Dh_11	1	1	1	0	1			NLR			private
+114260	Dh_11	1	1	1	0	1					NLR	private
+114264	Dh_11	4	1	4	0	4		NLR	NLR	NLR	NLR	near_core
+114265	Dh_11	1	1	1	0	1					NLR	private
+114273	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114279	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114286	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114287	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114289	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114290	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114291	Dh_11	1	1	1	0	1					NLR	private
+114292	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114293	Dh_11	1	1	1	0	1					NLR	private
+114294	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114295	Dh_11	1	1	1	0	1					NLR	private
+114309	Dh_11	1	1	1	0	1					NLR	private
+114313	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114315	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114317	Dh_11	1	1	1	0	1					NLR	private
+114322	Dh_11	1	1	1	0	1					NLR	private
+114323	Dh_11	1	1	1	0	1					NLR	private
+114335	Dh_11	1	1	1	0	1					NLR	private
+114338	Dh_11	5	1	1	0	1	present	present	present	present	NLR	core
+114370	Dh_11	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+114378	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114379	Dh_11	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+114380	Dh_11	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+114391	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114395	Dh_11	2	2	2	0	2	NLR		NLR			variable_2
+114532	Dh_11	3	2	2	0	2		NLR	NLR		present	variable_3
+114535	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114538	Dh_11	1	1	1	0	1				NLR		private
+114545	Dh_11	1	1	1	0	1				NLR		private
+114546	Dh_11	5	3	3	1	4	NLR	NLR	NLR	NLR	present	core
+114553	Dh_11	1	1	1	0	1	NLR					private
+114568	Dh_11	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+114569	Dh_11	1	1	1	0	1		NLR				private
+114583	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114598	Dh_11	1	1	1	0	1				NLR		private
+114610	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114626	Dh_11	2	2	2	0	2		NLR		NLR		variable_2
+114628	Dh_11	2	1	1	0	1	NLR				present	variable_2
+114632	Dh_11	3	2	2	0	2		NLR	NLR		present	variable_3
+114648	Dh_11	2	1	1	0	1		NLR			present	variable_2
+114649	Dh_11	2	1	1	0	1	NLR				present	variable_2
+114657	Dh_11	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+114658	Dh_11	4	3	3	0	3		NLR	NLR	NLR	present	near_core
+114799	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114817	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114819	Dh_11	3	2	2	0	2	NLR		NLR		present	variable_3
+114821	Dh_11	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+114822	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114825	Dh_11	3	2	2	0	2		NLR		NLR	present	variable_3
+114842	Dh_11	4	3	3	0	3	NLR	NLR	NLR		present	near_core
+114878	Dh_11	2	1	1	0	1	NLR				present	variable_2
+114881	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114889	Dh_11	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+114924	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114929	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114932	Dh_11	2	2	2	0	2	NLR	NLR				variable_2
+114938	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114939	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114942	Dh_11	2	1	1	0	1			NLR		present	variable_2
+114944	Dh_11	2	1	2	0	2	NLR			NLR		variable_2
+114951	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114952	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114955	Dh_11	3	3	3	0	3	NLR	NLR	NLR			variable_3
+114958	Dh_11	2	1	1	0	1			NLR		present	variable_2
+114959	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114965	Dh_11	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+114967	Dh_11	2	1	1	0	1		NLR			present	variable_2
+114972	Dh_11	2	1	1	0	1			NLR		present	variable_2
+116047	Dh_12	1	1	1	0	1					NLR	private
+116170	Dh_12	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+116572	Dh_12	5	1	1	0	1	present	present	present	present	NLR	core
+117219	Dh_12	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+118180	Dh_12	1	1	1	0	1					NLR	private
+118597	Dh_12	5	1	1	0	1	present	present	present	present	NLR	core
+118616	Dh_12	5	1	1	0	1	present	present	present	present	NLR	core
+118676	Dh_12	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+119070	Dh_12	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+119087	Dh_12	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+121414	Dh_13	5	1	1	0	1	present	present	present	present	NLR	core
+121440	Dh_13	5	1	1	0	1	present	present	present	present	NLR	core
+121782	Dh_13	4	2	2	0	2	NLR	present		NLR	present	near_core
+121812	Dh_13	4	3	3	0	3	NLR	NLR		NLR	present	near_core
+121905	Dh_13	1	1	1	0	1					NLR	private
+122272	Dh_13	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+123371	Dh_13	1	1	1	0	1					NLR	private
+123374	Dh_13	5	1	1	0	1	present	present	present	present	NLR	core
+123376	Dh_13	5	1	1	0	1	present	present	present	present	NLR	core
+123377	Dh_13	5	1	1	0	1	present	present	present	present	NLR	core
+123379	Dh_13	5	1	1	0	1	present	present	present	present	NLR	core
+123380	Dh_13	5	1	1	0	1	present	present	present	present	NLR	core
+123616	Dh_13	5	1	1	0	1	present	present	present	present	NLR	core
+123787	Dh_13	2	2	2	0	2	NLR		NLR			variable_2
+123790	Dh_13	2	2	2	0	2	NLR		NLR			variable_2
+123792	Dh_13	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+123793	Dh_13	3	2	2	0	2		NLR		NLR	present	variable_3
+123794	Dh_13	3	2	2	0	2		NLR		NLR	present	variable_3
+123796	Dh_13	4	4	4	0	4	NLR	NLR	NLR	NLR		near_core
+123799	Dh_13	1	1	1	0	1			NLR			private
+123801	Dh_13	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+123811	Dh_13	5	4	4	0	4	NLR	NLR	NLR	NLR	present	core
+123812	Dh_13	2	2	2	0	2	NLR		NLR			variable_2
+124077	Dh_13	3	2	2	0	2	NLR	NLR			present	variable_3
